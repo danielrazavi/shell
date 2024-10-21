@@ -22,32 +22,42 @@ This module introduces the Unix shell language and covers file and directory nav
 Participants will acquire problem-solving skills through live coding sessions. Additionally, they will explore the concept of reproducibility and its integration into their work.
 
 ## Learning Outcomes
-
 By the end of the module, participants will be able to:
 * Comfortably access and navigate the terminal
 * Create, modify and delete directories and files
 
-## Assignments
 
-1. [The Secret Password Assignment](https://github.com/UofT-DSI/shell/blob/main/02_assignments/assignment.md)
+## Activities
+This module has two types of activities.
+1. Assignments are mandatory, and form part of your evaluation.
+1. Homework is not assessed, but are provided to you for extra practice. We encourage you to check each other's homework solutions during Work Periods or ask a Learning Support!
 
+### Assignments
 Participants should review the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md) for instructions on how to complete assignments in this module.
+
+Assignments are typically due on the Sunday following the module's live learning session.
+
+1. [Shell script assignment](./02_activities/assignments/assignment_instructions.md)
+
+### Homework
+1. [Shell Homework](./02_activities/homework/homework.sh)
+
 
 ## Contacts
 
-**Questions can be submitted to the _#cohort-3-help_ channel on Slack**
+**Questions can be submitted to the _#cohort-4-help_ channel on Slack**
 
 * Technical Facilitator:   
   * **Simeon Wong** (he/him)  
     simeonm.wong@utoronto.ca
 
 * Learning Support Staff: 
-  * **Michaela Drouillard** (she/her)  
-  michaela.drouillard@mail.utoronto.ca
-  * **Julia Gallucci** (she/her)  
-  julia.gallucci@mail.utoronto.ca
-  * **Emma Teng**  
+  * **Emma Teng**  (she/her)
   e.teng@mail.utoronto.ca
+  * **Sidra Bushra** (she/her)
+  contact.sidra.bushra@gmail.com
+  * **Pedram Asli** (he/him)
+  pedram.aliniayeasli@gmail.com
  
 ## Delivery of the Learning Module
 
@@ -67,7 +77,7 @@ Participants are encouraged to engage actively during the learning module. They 
 * Participants are encouraged to ask questions, and collaborate with others to enhance their learning experience.
 * Participants must have a computer and an internet connection to participate in online activities.
 * Participants must not use generative AI such as ChatGPT to generate code in order to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect Participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
+* We expect participants to have completed the steps in the [onboarding repo](https://github.com/UofT-DSI/onboarding/).
 * We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
 
 ## Resources
@@ -84,26 +94,59 @@ Feel free to use the following as resources:
 - [Bash in 100 seconds](https://www.youtube.com/watch?v=I4EWvMFj37g)
 
 ### How to get help
-![image](./steps_to_ask_for_help.png)
+#### 1. Gather information about your problem
+- Copy and paste your error message
+- Copy and paste the code that caused the error, and the last few commands leading up to the error
+- Write down what you are trying to accomplish with your code. Include both the specific action, and the bigger picture and context
+- (optional) Take a screenshot of your entire workspace
+
+#### 2. Try searching the web for your error message
+- Sometimes, the error has common solutions that can be easy to find!
+   - This will be faster than waiting for an answer
+- If none of the solutions apply, consider asking a Generative AI tool
+   - Paste your code, the error message, and a description of your overall goals
+
+#### 3. Try asking in your cohort's Slack help channel
+- Since we're all working through the same material, there's a good chance one of your peers has encountered the same error, or has already solved it
+- Try searching in the DSI Certificates Slack help channel for whether a similar query has been posted
+- If the question has not yet been answered, post your question!
+   - Describe your the overall goals, the context, and the specific details of what you were trying to accomplish
+   - Make sure to **copy and paste** your code, your error message
+   - Copying and pasting helps:
+      1. your peers and teaching team quickly try out your code
+      1. others to find your question in the future
+
+#### Great resources on how to ask good technical questions that get useful answers
+- [Asking for Help - The Odin Project](https://www.theodinproject.com/lessons/foundations-asking-for-help)
+- [How do I ask a good question? - Stack Overflow](https://stackoverflow.com/help/how-to-ask)
+- [The XY problem: A question pitfall that won't get useful answers](https://xyproblem.info/)
+- [How to create a minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example)
+
+#### Getting help: A summary
+<img src="steps_to_ask_for_help.png" width="700">
 
 <hr>
 
 ## Folder Structure
 Below is an outline of the folder structure for this module:
-```markdown
+```
 .
-├── 01_slides
-├── 02_assignments
-├── 03_homework
-├── 04_instructional_team
+├── .github
+├── 01_materials
+├── 02_activities
+├── 03_instructional_team
+├── 04_this_cohort
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── steps_to_ask_for_help.png
 ```
-
-* **slides:** Module slides as PDF files.
-* **homework:** Homework to practice concepts covered in learning modules.
-* **assignments:** Assignments.
-* **instructors:** This folder guides Technical Facilitators and the Learning Support team on teaching methodologies and content delivery.
-* README: This file!
-* .gitignore: Files to exclude from this repo, specified by the instructing team.
+* **.github**: Contains issue templates and pull request templates for the repository.
+* **materials**: Module slides and interactive notebooks (.ipynb files) used during learning sessions.
+* **activities**: Contains graded assignments, exercises, and homework to practice concepts covered in the learning module.
+* **instructional_team**: Resources for the instructional team.
+* **this_cohort**: Additional materials for this cohort.
+* **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
+* **LICENSE**: The license for this repository.
+* **README**: This file.
+* **steps_to_ask_for_help.png**: Guide on how to ask for help.
