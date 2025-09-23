@@ -140,5 +140,5 @@ Below is an outline of the folder structure for this module:
 * **this_cohort**: Additional materials for this cohort.
 * **.gitignore**: Files to exclude from this folder, specified by the Technical Facilitator
 * **LICENSE**: The license for this repository.
-* **README**: This file.
+* **README.md**: This file.
 
