@@ -1,5 +1,6 @@
 #!/bin/bash
-set -x
+
+# test 1
 
 ############################################
 # DSI CONSULTING INC. Project setup script #
@@ -21,11 +22,19 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
+<<<<<<< HEAD
 ls
 # 2. Move the ./rawdata directory to ./data/raw
 ls
 # 3. List the contents of the ./data/raw directory
 ls
+=======
+doing the assignmet.
+# 2. Move the ./rawdata directory to ./data/raw
+doing the assignmet2.
+# 3. List the contents of the ./data/raw directory
+doing the assignmet4.
+>>>>>>> 4172d6bf746ad14d17077954789e87c725fae942
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 ls
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
