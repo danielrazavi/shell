@@ -28,8 +28,10 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
+okay this is the command to make a new directory
 
 # 2. Move the ./rawdata directory to ./data/raw (eg. move it into ./data and rename it to raw)
+this is the command to move rawdata directory to raw folder
 
 # 3. List the contents of the ./data/raw directory
 
